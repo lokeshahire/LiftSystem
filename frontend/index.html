@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Elevator System</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Elevator System</h1>
+
+    <!-- Form to Request Elevator -->
+    <form id="requestForm">
+      <label for="elevatorId">Elevator ID:</label>
+      <input type="number" name="elevatorId" required />
+
+      <label for="requestedFloor">Requested Floor:</label>
+      <input type="number" name="requestedFloor" required />
+
+      <button type="submit">Request Elevator</button>
+    </form>
+
+    <!-- Form to Initialize Elevator System -->
+    <form id="initializeForm">
+      <label for="numberOfElevators">Number of Elevators:</label>
+      <input type="number" name="numberOfElevators" required />
+
+      <button type="submit">Initialize Elevator System</button>
+    </form>
+
+    <!-- Display Elevator Information (Add a container element to display elevator data) -->
+    <div id="elevatorInfo">
+      <!-- Elevator information will be displayed here -->
+    </div>
+
+    <!-- Load the main.js script -->
+    <script src="main.js"></script>
+  </body>
+</html>
